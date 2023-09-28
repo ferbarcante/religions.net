@@ -24,6 +24,7 @@ body{
 }
 .logo h1 {
     color: #ffffff;
+    font-style: italic;
 }
 .nav-list{
     display: flex;
@@ -57,6 +58,7 @@ container{
 }
 .conteudo h1 {
     margin: 1rem;
+    font-style: italic;
 }
 .conteudo p{
     margin: 0rem 3rem 1rem 1rem;
