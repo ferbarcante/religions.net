@@ -5,31 +5,50 @@
     font-family: 'Playfair Display';    
 }
 
-header{
-    background-color: #d2b086;
+
+header{ 
+    background: rgb(214, 179, 158);
 }
 
-body{
-    background-color: #ffffff;
+html {
+    height: 200vh;
+}
+.fundo img{
+    width: 100%;
+    top: 0;
+}
+
+.container {
+    position: absolute;
+    top: 40vh;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+   
 }
 .logo{
     display: flex;
     align-items: center;
 }
 .logo h1 {
-    color: #ffffff;
+    color: #f7f7f7;
     font-style: italic;
 }
 .nav-list{
     display: flex;
     align-items: center;
 
+}
+.nav-list li:hover{
+    background-color: #6d4242;
+    transition: 0.5s;
+}
+.nav-list li{
+    padding: 10px 12px;
+    border-radius: 20px;
 }
 
 .nav-list ul{
@@ -45,26 +64,62 @@ body{
 .nav-link{
     text-decoration: none;
     font-size: 1.15rem;
-    color: #ffffff;
-    ;
+    color: #fffdfd;
 }
-container{
-    display: flex;
-    align-items: center;
-    padding: 1rem 4rem;
-}
+
 .conteudo{
-    color: #AB7B40;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
 }
 .conteudo h1 {
+    font-size: 3.2rem;
     margin: 1rem;
     font-style: italic;
 }
 .conteudo p{
     margin: 0rem 3rem 1rem 1rem;
     line-height: 1.7rem;
+    padding: 1rem 20rem;
 }
-.img-inicial{
-    color: #AB7B40;
-    height: auto;
+.botao {
+    display: flex;
+    justify-content: center;
+
 }
+
+.botao a{
+    text-decoration: none;
+}
+.botao p {
+    border-radius: 13px;
+    font-size: 0.9rem;
+    border: none;
+    background-color: #6d4242;
+    color: white;
+    text-align: center;
+    padding: 10px 20px ;
+
+    
+}
+.botao p:hover{
+    transition: 0.5s;
+    padding: 11px 20px ;
+}
+
+.container2 {
+    display: flex; /* Usar flexbox para layout */
+    justify-content: space-between; /* Distribuir o espaço entre as caixas */
+  }
+  
+  .box {
+    width: ; /* Definir a largura das caixas */
+    padding: 50px; /* Adicionar espaçamento interno */
+    text-align: center; /* Centralizar o conteúdo */
+  }
+  
+  .box img {
+    max-width: 100%; /* Garantir que a imagem se ajuste à caixa */
+  }
+  
